@@ -2,6 +2,7 @@ import java.util.Collections;
 import java.util.LinkedList;
 import java.util.concurrent.atomic.AtomicInteger;
 
+//The main class for Question 2. Run as shown in randomNumRunner.java. 
 public class randNumbs{
     private LinkedList<Integer> number_Holder;
     public AtomicInteger current_Index = new AtomicInteger(0);

@@ -1,6 +1,7 @@
 public class randomNumRunner {
     private static randNumbs test;
 
+    //A Simple runner to test out the randNumbs.java class. I struggled getting Heroku to function properly, this is a poor substitute using multiple threads.
     public static void main(String[] args){
         test = new randNumbs(100000);
 
