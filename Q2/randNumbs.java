@@ -10,7 +10,7 @@ public class randNumbs{
 
     public randNumbs(int how_many){
         initiliazeNumbers(how_many);
-        System.out.println(number_Holder);
+        //System.out.println(number_Holder);
     }
 
     private void initiliazeNumbers(int how_many){
