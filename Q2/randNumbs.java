@@ -7,8 +7,8 @@ public class randNumbs{
     public AtomicInteger current_Index = new AtomicInteger(0);
     private Boolean no_More_Numbers_Flag = false;
 
-    public randNumbs(){
-        initiliazeNumbers(100);
+    public randNumbs(int how_many){
+        initiliazeNumbers(how_many);
         System.out.println(number_Holder);
     }
 
